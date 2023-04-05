@@ -25,7 +25,7 @@ public class notas {
      * @param none
      * @return void
      */
-	public void IngresaNotas() {
+	public void ingresarnotas() {
 		//Cuando se ejecuta este método, se pide al usuario que introduzca las notas
 		System.out.println("ingrese las notas del estudiante");
 		
@@ -133,7 +133,7 @@ public class notas {
 		
 		notas fc= new notas();
 		
-		fc.IngresaNotas();
+		fc.ingresarnotas();
 		
 		fc.comprobarcion();
 		
